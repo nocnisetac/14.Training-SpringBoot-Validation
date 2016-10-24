@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"/>
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Account Information</h2>
+	<table cellpadding="2" cellspacing="2" border="1">
+		<tr>
+			<td>Username</td>
+			<td th:text="${account.username}"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td th:text="${account.password}"></td>
+		</tr>
+		<tr>
+			<td>Age</td>
+			<td th:text="${account.age}"></td>
+		</tr>
+	</table>
+</body>
+</html>
